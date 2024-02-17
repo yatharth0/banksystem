@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+html,
+body,
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #2196F3 !important; /* Material blue */
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem; /* Larger font size */
+    color: #fff !important; /* White text color */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text color */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+/* My Info Section styles */
+.my-info {
+    text-align: left;
+    padding: 2rem 1rem;
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Adjust button margin for better spacing */
+.my-info .btn {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Make table responsive and occupy full width */
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Table header styles */
+.table-danger th {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Table row styles */
+.table-light tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+/* Table row hover styles */
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}

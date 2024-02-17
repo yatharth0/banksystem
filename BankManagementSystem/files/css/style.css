@@ -1,0 +1,54 @@
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif; /* Change to desired font */
+  background-color: #d5b9b2; /* Light brown background */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #4CAF50 !important; /* Green color */
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif; /* Change to desired font */
+  font-size: 2rem; /* Larger font size */
+  color: #fff !important; /* White text color */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text color */
+  font-family: 'Arial', sans-serif; /* Change to desired font */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Hero content styling */
+.hero-content {
+  padding: 3rem 0;
+  background-color: #f2f2f2; /* Light grey background */
+}
+
+.hero-content h1 {
+  font-size: 3.5rem; /* Larger font size for heading */
+  color: #4CAF50; /* Green color */
+}
+
+.hero-content p {
+  font-size: 1.3rem; /* Larger font size for paragraph */
+  color: #555; /* Dark grey text color */
+}
+
+.get-started {
+  padding: 1.2rem 2.5rem;
+  background-color: #4CAF50; /* Green color */
+  color: #fff; /* White text color */
+  text-decoration: none;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.get-started:hover {
+  background-color: #388E3C; /* Darker green on hover */
+}
